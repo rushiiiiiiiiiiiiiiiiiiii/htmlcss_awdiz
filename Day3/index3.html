@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-3</title>
+    <style>
+        .valid:valid {
+            background-color: lightgreen;
+        }
+
+        .valid:invalid {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- fieldset & legend -->
+    <form>
+        <fieldset>
+            <legend>Login Form</legend>
+            <label for="email">Email: </label><br>
+            <input id="email" type="email" placeholder="Enter your name" /><br><br>
+            <label for="pass">Password: </label><br>
+            <input id="pass" type="password" placeholder="Enter your password" /><br><br>
+            <button>Submit</button>
+        </fieldset>
+    </form><br>
+
+    <!-- value -->
+    This input has default value set <input type="email" value="rushikesharote@gmail.com" /><br><br>
+    
+    <!-- readonly -->
+    Readonly Input: <input type="text" readonly value="Rushikesh Arote" /><br><br>
+    
+    <!-- disabled -->
+    Disabled Input: <input type="text" disabled value="Rushikesh Arote" /><br><br>
+    
+    <!-- size -->
+    Input size is 40: <input size="40" /><br><br>
+    
+    <!-- minlength & maxlength -->
+    Enter minimum 3 and maximum 6 characters: <input class="valid" type="text" minlength="3" maxlength="6" /><br><br>
+    
+    <!-- min & max -->
+    Enter minimum 3 and maximum 6 values: <input class="valid" type="number" min="5" max="10" /><br><br>
+    
+    <!-- pattern -->
+    Password must be 8 or more then 8 digits: <input class="valid" type="password" pattern=".{8,}" /><br><br>
+    
+    <!-- placeholder -->
+    Placeholder Example:<input type="text" placeholder="Enter your name here"><br><br>
+    
+    <!-- required -->
+    This feild is required: <input class="valid" type="text" required><br><br>
+    
+    <!-- title -->
+    Hover on Name to se a title: <label title="Your name is rushikesh arote">Name</label>
+    
+</body>
+
+</html>
