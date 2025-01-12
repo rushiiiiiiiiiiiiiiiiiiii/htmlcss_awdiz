@@ -1,0 +1,106 @@
+.padding{
+    border: 2px solid red;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+.outline{
+    outline-offset: 5px;
+    outline-style: dashed;
+    outline-width: 5px;
+    padding: 10px;
+    outline-color: red;
+    border: 5px solid green;
+    text-align: center;
+}
+.textColor{
+    color: blue;
+    text-align: center;
+}
+
+.textAlign{
+    text-align:center ;
+}
+.textAlignl{
+    text-align:left ;
+}.textAlignr{
+    text-align:right ;
+}
+.textLast{
+    text-align-last: justify;
+}
+
+.textDecLine{
+    font-size: larger;
+    color: red;
+    text-decoration-line: line-through;
+}
+.textDecLine1{
+    font-size: larger;
+    color: red;
+    text-decoration-line: underline;
+}
+.textDecLine2{
+    font-size: larger;
+    color: red;
+    text-decoration-line:overline;
+}
+.textDecLine3{
+    color: red;
+    text-decoration-line: underline;
+    text-decoration-thickness:5px;
+}
+
+.textTransform{
+    text-transform:uppercase;
+}
+
+.indent{
+    color: green;
+    text-indent: 50px ;
+    
+}
+.spacing{
+    color: blue;
+    letter-spacing: 2px;
+}
+.lineh{
+    color: orange;
+    line-height: 20px;
+}
+
+.wordSpacing{
+    word-spacing: 3px;
+    
+}
+.whitespace{
+    word-spacing: 3px;
+}
+.txtshadow{
+    text-shadow:orange 4px 4px;
+}
+.font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-variant: normal;
+}
+.fontSize{
+    color: peru;
+    margin: 2px;
+    font-size:20px;
+}
+.fontSize1{
+    color: red;
+    margin: 2px;
+    font-size: 100%;
+}
+
+.fontSize2{
+    color: blue;
+    margin: 0;
+    font-size: 1.5em;
+}
