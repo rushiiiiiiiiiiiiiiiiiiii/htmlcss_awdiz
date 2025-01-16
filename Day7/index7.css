@@ -1,0 +1,161 @@
+.font{
+  font-family: "Playwrite AU SA", serif;
+}
+.hover{
+  text-align: center;
+  font-size: larger;
+  height: 100px;
+  width:100%;
+  background-color: blue;
+}
+
+.hover:hover{
+  text-align: center;
+  height: 100px;
+  width:100%;
+  background-color: orange;
+}
+
+.disNone{
+  display: none;
+}
+
+.width{
+  margin-top: 10px;
+  text-align: center;
+  font-size: larger;
+  height: 100px;
+  width:500px;
+  background-color: yellow;
+}
+.maxWidth{
+  margin-top: 10px;
+  text-align: center;
+  font-size: larger;
+  height: 100px;
+  max-width:500px;
+  background-color: yellow;
+}
+.relative{
+  display: flex;
+  text-align:center;
+
+}
+
+.relative > div:nth-child(2){
+  background-color: purple;
+  top: 50px;
+  position: relative;
+}
+.position1{
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+}
+
+.absolute{
+  margin-top: 50px;
+  display: flex;
+  text-align:center;
+
+}
+
+.position2{
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  background-color: mediumaquamarine;
+}
+.absolute >div:nth-child(2){
+  top: 70%;
+  left: 30%;
+  position: absolute;
+  background-color: mediumaquamarine;
+}
+
+.fixed{
+  margin-top: 50px;
+  display: flex;
+  text-align:center;
+}
+
+.position3{
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  background-color: brown;
+}
+.fixed >div:nth-child(2){
+  top: 60%;
+  left: 20%;
+  position: fixed;
+  background-color: brown;
+}
+
+.sticky{
+  margin-top: 50px;
+  display: flex;
+  text-align:center;
+
+}
+
+.position4{
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  background-color: red;
+  color: wheat;
+}
+.sticky >div:nth-child(2){
+  top: 60%;
+  left: 30%;
+  position: sticky;
+  background-color: 
+  red;
+  color: wheat;
+}
+
+.overflow{
+  display: flex;
+}
+.visible{
+  height: 150px;
+  width: 300px;
+  border: 2px solid black;
+  overflow: visible;
+}
+.hidden{
+  margin-left: 10px;
+  height: 150px;
+  width: 300px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+.scroll{
+  margin-left: 10px;
+  height: 150px;
+  width: 300px;
+  border: 2px solid black;
+  overflow: scroll;
+}
+
+.auto{
+  margin-left: 10px;
+  height: 150px;
+  width: 300px;
+  border: 2px solid black;
+  overflow: auto;
+}
+
+.center{
+  width: 50%;
+  margin-top: 100px;
+  border: 3px solid green;
+  padding: 5px;
+}
+.centerImg {
+  height: 100%;
+  width: 100vh;
+  margin-top: 20px;
+}
