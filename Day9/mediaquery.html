@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <style>
+      #parent {
+        display: flex;
+        border: 5px solid red;
+        justify-content: space-around;
+      }
+      #parent > div {
+        width: 24%;
+        border: 2px solid black;
+        height: 240px;
+        font-size: 42px;
+        text-align: center;
+      }
+     
+      @media (min-width: 350px) and (max-width: 550px) {
+        #parent {
+          border: 5px solid blue;
+        }
+      }
+      /* Tablet view  */
+      @media (min-width: 550px) and (max-width: 950px) {
+        #parent {
+          border: 5px solid green;
+        }
+      }
+
+      /* PC view  */
+      @media (min-width: 950px) and (max-width: 1650px) {
+        #parent {
+          border: 5px solid purple;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="parent">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+  </body>
+</html>
