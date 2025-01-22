@@ -1,0 +1,8 @@
+(self["webpackChunk_canva_web"] = self["webpackChunk_canva_web"] || []).push([[1535],{
+
+/***/ 262047:
+function(_, __, __webpack_require__) {__webpack_require__.n_x = __webpack_require__.n;const __web_req__ = __webpack_require__;__web_req__(813110);self._fe4d99ebe0d2d259646a80d250150d47 = self._fe4d99ebe0d2d259646a80d250150d47 || {};(function(__c) {__c.mq={Fdc:1,Pyb:2,Jyb:3,qfc:4,cec:5,efc:6,cfc:7,QQ:8,zgc:9,Agc:10,Bgc:11,Byb:12,Gec:13,Fec:14,Hec:15,Dfc:16,Ffc:17,Efc:18};__c.gfb={boe:1,Xne:2,Zne:3,coe:4,dec:5,eoe:6,Wne:7,Vne:8,Une:9,uxe:10,doe:11,L1c:12,aoe:13,txe:14,Yne:15,$ne:16,vxe:17};
+}).call(self, self._fe4d99ebe0d2d259646a80d250150d47);}
+
+}])
+//# sourceMappingURL=sourcemaps/0a5bad7b3d202239.js.map
